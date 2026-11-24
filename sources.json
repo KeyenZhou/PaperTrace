@@ -1,0 +1,97 @@
+{
+  "sources": {
+    "arXiv 人工智能": "https://rss.arxiv.org/atom/cs.AI",
+    "arXiv 机器学习": "https://rss.arxiv.org/atom/cs.LG",
+    "arXiv 分布式与并行计算": "https://rss.arxiv.org/atom/cs.DC",
+    "arXiv 性能": "https://rss.arxiv.org/atom/cs.PF",
+    "arXiv 编程语言": "https://rss.arxiv.org/atom/cs.PL",
+    "arXiv 计算语言学": "https://rss.arxiv.org/atom/cs.CL",
+    "arXiv 软件工程": "https://rss.arxiv.org/atom/cs.SE",
+    "arXiv 硬件架构": "https://rss.arxiv.org/atom/cs.AR",
+    "arXiv 多智能体": "https://rss.arxiv.org/atom/cs.MA",
+    "arXiv 信息检索": "https://rss.arxiv.org/atom/cs.IR",
+    "arXiv 操作系统": "https://rss.arxiv.org/atom/cs.OS",
+    "arXiv 计算机视觉": "https://rss.arxiv.org/atom/cs.CV",
+    "ACL Anthology 最新条目": "https://aclanthology.org/index.xml",
+    "MLSys 2026 论文目录": {
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2026",
+      "format": "mlsys"
+    },
+    "OpenReview ICLR 2026 录用论文（最近修改 50 条）": {
+      "url": "https://api2.openreview.net/notes?content.venueid=ICLR.cc%2F2026%2FConference&sort=tmdate:desc&limit=50",
+      "format": "openreview"
+    },
+    "Hugging Face Daily Papers（最多 50 条）": {
+      "url": "https://huggingface.co/api/daily_papers?limit=50",
+      "format": "hf"
+    },
+    "NVIDIA Technical Blog": "https://developer.nvidia.com/blog/feed/",
+    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
+    "昇腾 PyTorch 版本发布": "https://github.com/Ascend/pytorch/releases.atom",
+    "TileLang 版本发布": "https://github.com/tile-ai/tilelang/releases.atom",
+    "AgentScope 版本发布": "https://github.com/agentscope-ai/agentscope/releases.atom",
+    "Qwen-Agent 版本发布": "https://github.com/QwenLM/Qwen-Agent/releases.atom",
+    "SGLang 版本发布": "https://github.com/sgl-project/sglang/releases.atom",
+    "Triton 版本发布": "https://github.com/triton-lang/triton/releases.atom",
+    "NVIDIA CUTLASS 版本发布": "https://github.com/NVIDIA/cutlass/releases.atom",
+    "NVIDIA TensorRT-LLM 版本发布": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
+    "vLLM 版本发布": "https://github.com/vllm-project/vllm/releases.atom",
+    "DeepSeek DeepGEMM 主分支提交": "https://github.com/deepseek-ai/DeepGEMM/commits/main.atom",
+    "DeepSeek DeepEP 主分支提交": "https://github.com/deepseek-ai/DeepEP/commits/main.atom",
+    "昇腾 Triton 后端主分支提交": "https://github.com/Ascend/triton-ascend/commits/main.atom",
+    "FlashInfer 版本发布": "https://github.com/flashinfer-ai/flashinfer/releases.atom",
+    "PyTorch AO 版本发布": "https://github.com/pytorch/ao/releases.atom",
+    "Apache TVM 版本发布": "https://github.com/apache/tvm/releases.atom",
+    "NVIDIA CUDA Python 版本发布": "https://github.com/NVIDIA/cuda-python/releases.atom",
+    "OpenBMB AgentVerse 主分支提交": "https://github.com/OpenBMB/AgentVerse/commits/main.atom",
+    "Hugging Face smolagents 版本发布": "https://github.com/huggingface/smolagents/releases.atom",
+    "LangGraph 版本发布": "https://github.com/langchain-ai/langgraph/releases.atom",
+    "Stanford CRFM HELM 版本发布": "https://github.com/stanford-crfm/helm/releases.atom",
+    "GitHub 仓库发现 · GPU 内核": {
+      "url": "https://api.github.com/search/repositories?q=topic%3Acuda-kernels+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=25",
+      "format": "github_repos"
+    },
+    "GitHub 仓库发现 · 智能体评测": {
+      "url": "https://api.github.com/search/repositories?q=topic%3Aagent-evaluation+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=25",
+      "format": "github_repos"
+    },
+    "GitHub 仓库发现 · 昇腾": {
+      "url": "https://api.github.com/search/repositories?q=topic%3Aascend+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=25",
+      "format": "github_repos"
+    }
+  },
+  "topics": {
+    "算子与 GPU": [
+      "CUDA",
+      "Triton",
+      "TileLang",
+      "GPU kernel",
+      "kernel generation",
+      "operator fusion",
+      "Ascend C",
+      "CANN",
+      "算子",
+      "昇腾",
+      "CUTLASS",
+      "autotuning"
+    ],
+    "智能体": [
+      "agent",
+      "agents",
+      "agentic",
+      "智能体",
+      "tool use",
+      "tool-use",
+      "automated research",
+      "recursive self-improvement",
+      "self-improving",
+      "self-evolving",
+      "self-modifying",
+      "meta-agent",
+      "harness evolution",
+      "successor agent",
+      "递归自我改进",
+      "自进化"
+    ]
+  }
+}

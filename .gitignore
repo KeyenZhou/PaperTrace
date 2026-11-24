@@ -1,0 +1,18 @@
+# Local scan history and question drafts
+/runs/
+/questions/*.tmp
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Desktop metadata
+.DS_Store
+Thumbs.db
