@@ -27,3 +27,13 @@ plan 离线展示源和命中词。scan 读取配置中的 Atom、RSS、论文�
     python3 radar.py questions add "长上下文推理的显存占用能降多少？" --evidence "相同硬件和任务质量下的峰值显存、吞吐与延迟"
 
 每个问题在 questions/ 中独立保存为 Markdown，首行为问题，其余为要找的证据。可编辑、移除或随项目共享。plan 展示当前问题；review 每次读取当前问题，因此新问题可以直接用于重读历史扫描。问题用于 AI 审阅，全部采集来源与候选仍可检查。
+
+## 飞书群内查询
+
+在已发布的飞书应用中启用长连接、接收消息事件 `im.message.receive_v1`、接收群聊 @ 消息及机器人发送消息权限。在已配置飞书 CLI 的机器上运行：
+
+    python -X utf8 feishu_bot.py --chat-id <群的 open_chat_id>
+
+保持进程运行。在指定群内 @机器人并询问「当前关注方向」「最新日报」「算子优化」或论文关键词。Python 从本地 questions 和最新的 reports/YYYY-MM-DD.md 读取答案，通过已有 CLI 身份接收事件并回复原消息。
+
+也可以使用官方 Python SDK 直连。在独立 Python 环境安装 `lark-channel-sdk==1.4.0`，为进程设置 `LARK_APP_ID` 和 `LARK_APP_SECRET`，使用同一命令并追加 `--transport sdk`。每个机器人同时运行一个监听实例。
